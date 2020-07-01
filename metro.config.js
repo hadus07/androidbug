@@ -1,6 +1,6 @@
-const path = require('path');
+// const path = require('path');
 
-const stream = path.join(__dirname, './node_modules/stream-browserify');
+// const stream = path.join(__dirname, './node_modules/stream-browserify');
 
 module.exports = {
   transformer: {
@@ -12,8 +12,9 @@ module.exports = {
     }),
   },
   resolver: {
-    extraNodeModules: Object.assign({}, require('node-libs-react-native'), {
-      stream,
-    }),
+    extraNodeModules: require('node-libs-react-native'), // May wanna comment
+    // extraNodeModules: Object.assign({}, require('node-libs-react-native'), {
+    //   stream,
+    // }),
   },
 };

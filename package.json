@@ -10,10 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "anatha-sdk": "git+ssh://git@github.com/Sentrylink/anatha-sdk.git#v0.1.1",
+    "anatha-sdk": "git+https://github.com/sentrylink/anatha-sdk.git",
     "node-libs-react-native": "^1.2.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-get-random-values": "^1.4.0",
     "stream-browserify": "^3.0.0"
   },
   "devDependencies": {
